@@ -17,7 +17,7 @@ export default ({ data }) => {
           </thead>
           <tbody>
             {data.allFile.edges.map(({ node }, index) => (
-              <tr key={index}>
+              <tr key={node.id}>
                 <td>{node.relativePath}</td>
                 <td>{node.prettySize}</td>
                 <td>{node.extension}</td>
