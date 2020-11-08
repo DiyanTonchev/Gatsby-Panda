@@ -1,10 +1,10 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-export default ({  }) => {
+export default () => {
   return (
     <Layout>
-      404
+      <strong>404 Page Not Found</strong>
     </Layout>
   )
 }

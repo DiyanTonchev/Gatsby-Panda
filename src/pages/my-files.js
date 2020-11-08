@@ -35,6 +35,7 @@ export const query = graphql`
     allFile {
       edges {
         node {
+          id
           relativePath
           prettySize
           extension
